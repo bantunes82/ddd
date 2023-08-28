@@ -1,0 +1,25 @@
+# Aula de Domain Drive Design - Otávio Santana
+:toc: auto
+
+== Referências
+
+* https://www.amazon.com.br/dp/1098100131[Learning Domain-Driven Design: Aligning Software Architecture and Business Strategy]
+* https://www.infoq.com/minibooks/domain-driven-design-quickly/[Domain Driven Design Quickly]
+* https://www.amazon.com.br/dp/0137458916[Domain Storytelling: A Collaborative, Visual, and Agile Way to Build Domain-Driven Software]
+
+== Frameworks
+
+* https://github.com/xmolecules/jmolecules
+
+== Conceitos
+
+* Estratégico: é um fica a linguagem do negócio: Bounded Context, linguagem ubiquitous, context Maps.
+* Tático: implementação, classes e módulos.
+
+== Patterns
+
+* Entidades: Uma entidade é um objeto único e core do negócio, geralmente, possui um identificador único.
+* Value objects: É um objeto sem identidade, que geralmente são imutáveis (record?).
+* Services: o objeto que executa ou implementa uma lógica de negócio e que não possui um estado.
+* Repository: É uma abstração que afasta o cliente do armazenamento do dados.
+* Agregator: Um cluster de objetos. Algumas vezes confundidos com uma simples coleção.
